@@ -10,14 +10,14 @@ import (
 func main() {
 	//This is used to read the content of the file
 
-	b, err := os.ReadFile("test.txt")
+	data, err := os.ReadFile("data.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	abc := string(b)
+	abc := string(data)
 
-	newQR := "abcd-qr.png"
+	newQR := "generatedQR.png"
 
 	//This is used to create a new QR code
 
