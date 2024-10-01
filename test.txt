@@ -1,0 +1,12 @@
+Hello, My name is Siddhant Gupta. 
+This is a pretty basic project because I was bored. 
+This project will turn any text into a QR code by
+using the go-qrcode library by Skip2 for
+generating QR codes.
+ 
+Date: October 1, 2024
+
+I'll leave it here, but I do intend to take
+this project a bit further by building it into
+a full-fledged web application with a frontend 
+that allows users to create personal custom QR codes for their links.
